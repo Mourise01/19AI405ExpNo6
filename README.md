@@ -1,16 +1,12 @@
-<h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-
-### DEVELOPED BY : Mourise jane S
-### REG NO : 212222230085
-
-## Aim :
-
+<h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE Game</h1> 
+<h3>Name:Mourise janeR</h3>
+<h3>Register Number: 212222230085</h3>
+<H3>Aim:</H3>
 <p>
-    Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
+    Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE Game
 </p>
 
-## Theory and Procedure :
-
+<H3>Theory and Procedure:</H3>
 To begin, let's start by defining what it means to play a perfect game of tic tac toe:
 
 If I play perfectly, every time I play I will either win the game, or I will draw the game. Furthermore if I play against another perfect player, I will always draw the game.
@@ -66,7 +62,7 @@ Let's walk through the algorithm's execution with the full move tree, and show w
 
 Here is the function for scoring the game:
 
-## @player is the turn taking player :
+# @player is the turn taking player
 def score(game)
     if game.win?(@player)
         return 10
@@ -104,9 +100,9 @@ def minimax(game)
         @choice = moves[min_score_index]
         return scores[min_score_index]
     end
+end
 
-
-## PROGRAM :
+<h2>Program </h2>
 
 ```
 import time
@@ -301,7 +297,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+<br>
 <hr>
 <h2>Sample Input and Output</h2>
 
@@ -311,7 +307,6 @@ if __name__ == "__main__":
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/a8a27e2a-6fd4-46a2-afb5-6d27b8556702)
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/a2acb6a1-ed8e-42e5-8968-fe805e4b0255)
 
-
-## Result :
-
+<hr>
+<h2>Result:</h2>
 <p>Thus,Implementation of  Minimax Search Algorithm for a Simple TIC-TAC-TOE game wasa done successfully.</p>
